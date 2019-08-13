@@ -1,0 +1,16 @@
+{
+    "name": "OpenMageModuleFostering/aumento_pricehide",
+    "type": "magento-module",
+    "license": "GNU-General-Public-License,-version-3-(GPL-3.0)",
+    "homepage": "",
+    "description": "The PriceHide extension only show product pricing to logged-in users and hide it from guests.",
+    "authors": [
+    {
+        "name": "Aumento.io",
+        "email": "yehiasalam@cairocubicles.com"
+    }
+],
+    "suggest": {
+        "magento-hackathon/magento-composer-installer": "*"
+    }
+}

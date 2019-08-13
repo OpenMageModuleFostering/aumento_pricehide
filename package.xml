@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package>
+    <name>aumento_pricehide</name>
+    <version>1.0.2</version>
+    <stability>stable</stability>
+    <license uri="http://www.gnu.org/licenses">GNU General Public License, version 3 (GPL-3.0)</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>The PriceHide extension only show product pricing to logged-in users and hide it from guests.</summary>
+    <description>The PriceHide extension only show product pricing to logged-in users and hide it from guests.</description>
+    <notes>If you any suggestions or bugs contact us at http://www.aumento.io</notes>
+    <authors><author><name>Aumento.io</name><user>yehiasalam</user><email>yehiasalam@cairocubicles.com</email></author></authors>
+    <date>2012-10-10</date>
+    <time>06:55:09</time>
+    <contents><target name="magecommunity"><dir name="Aumento"><dir name="PriceHide"><dir name="Block"><file name="Price.php" hash="3abb9913b36982c80b07992b22f40ae2"/></dir><dir name="Helper"><file name="Data.php" hash="578f1dbbb35288f10f8c693d94571bc3"/></dir><dir name="etc"><file name="config.xml" hash="29e7e28ca074f2c031183c0228a5808d"/><file name="system.xml" hash="b80b196397e1f3c6f0ed3fde74d8acf6"/></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Aumento_PriceHide.xml" hash="2e479e67a381ff8646838e9390569968"/></dir></target><target name="magedesign"><dir name="frontend"><dir name="soccernmoore"><dir name="theme267"><dir name="template"><dir name="pricehide"><file name="price.phtml" hash=""/></dir></dir></dir></dir></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>4.1.0</min><max>6.0.0</max></php></required></dependencies>
+</package>
