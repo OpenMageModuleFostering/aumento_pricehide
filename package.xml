@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package>
     <name>aumento_pricehide</name>
-    <version>2.0.0</version>
+    <version>2.1.0</version>
     <stability>stable</stability>
     <license uri="http://www.gnu.org/licenses">GNU General Public License, version 3 (GPL-3.0)</license>
     <channel>community</channel>
@@ -10,9 +10,9 @@
     <description>The PriceHide extension only show product pricing to logged-in users and hide it from guests.</description>
     <notes>If you any suggestions or bugs contact us at http://www.aumento.io</notes>
     <authors><author><name>Aumento.io</name><user>yehiasalam</user><email>yehiasalam@cairocubicles.com</email></author></authors>
-    <date>2012-11-24</date>
-    <time>13:54:38</time>
-    <contents><target name="magecommunity"><dir name="Aumento"><dir name="PriceHide"><dir name="Block"><file name="Price.php" hash="3abb9913b36982c80b07992b22f40ae2"/></dir><dir name="Helper"><file name="Data.php" hash="578f1dbbb35288f10f8c693d94571bc3"/></dir><dir name="etc"><file name="config.xml" hash="99bea5ef4b530f57d33f946f89835bc7"/><file name="system.xml" hash="11b897006466c04da623e47f9b68942a"/></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Aumento_PriceHide.xml" hash="2e479e67a381ff8646838e9390569968"/></dir></target><target name="magedesign"><dir name="frontend"><dir name="default"><dir name="default"><dir name="template"><dir name="pricehide"><file name="price.phtml" hash="69244d385c8c540ce8623db2213407fa"/><file name="product-list.phtml" hash="ad3ddd84b489ed04a024b2ff4d2d9c6a"/><file name="product-view-addtocart.phtml" hash="5b8170a1be761821d862b9b8fbb55252"/><file name="product-view.phtml" hash="8a5d7eb22e22cdb8e78a7c2e1aba3c9d"/></dir></dir><dir name="layout"><file name="pricehide.xml" hash="54b1cf0566d3e9c598a63606443292d7"/></dir></dir></dir></dir></target></contents>
+    <date>2012-12-01</date>
+    <time>12:47:24</time>
+    <contents><target name="magecommunity"><dir name="Aumento"><dir name="PriceHide"><dir name="Block"><file name="Price.php" hash="3abb9913b36982c80b07992b22f40ae2"/></dir><dir name="Helper"><file name="Data.php" hash="578f1dbbb35288f10f8c693d94571bc3"/></dir><dir name="etc"><file name="config.xml" hash="99bea5ef4b530f57d33f946f89835bc7"/><file name="system.xml" hash="11b897006466c04da623e47f9b68942a"/></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Aumento_PriceHide.xml" hash="2e479e67a381ff8646838e9390569968"/></dir></target><target name="magedesign"><dir name="frontend"><dir name="default"><dir name="default"><dir name="template"><dir name="pricehide"><file name="price.phtml" hash="69244d385c8c540ce8623db2213407fa"/><file name="product-compare-list.phtml" hash="6731c61dcbbe7411a70fd2f528fdb283"/><file name="product-list.phtml" hash="ad3ddd84b489ed04a024b2ff4d2d9c6a"/><file name="product-view-addtocart.phtml" hash="5b8170a1be761821d862b9b8fbb55252"/><file name="product-view.phtml" hash="8a5d7eb22e22cdb8e78a7c2e1aba3c9d"/></dir></dir><dir name="layout"><file name="pricehide.xml" hash="de7c36aa72e4a641f12b0966c23ebf2b"/></dir></dir></dir></dir></target></contents>
     <compatible/>
     <dependencies><required><php><min>4.1.0</min><max>6.0.0</max></php></required></dependencies>
 </package>
