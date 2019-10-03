@@ -1,3 +1,5 @@
+
+
 ## Original Package Description
 
 The PriceHide extension only show product pricing to logged-in users and hide it from guests.
